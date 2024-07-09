@@ -2,7 +2,7 @@
 
 Install termux and type
 ```
-    pkg install x11-repo && pkg update -y && curl -fsSL https://raw.githubusercontent.com/Perzivall/acesso_remoto_celulares/main/install.sh | bash && clear && echo 'Change Termux root password now...' && passwd && clear && echo 'Instalação finalizada'
+    pkg install x11-repo && pkg update -y && wget https://raw.githubusercontent.com/Perzivall/acesso_remoto_celulares/main/install.sh && chmod +x install.sh && ./install.sh && clear && echo 'Change Termux root password now...' && passwd && clear && echo 'Instalação finalizada'
 ```
 
 Disable Phantom process killer on androidOS +12
