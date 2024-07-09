@@ -8,6 +8,7 @@ echo 'sshd' >> ~/.bashrc
 echo 'export DISPLAY=":1"' >> ~/.bashrc
 pkg update
 pkg upgrade -y
+pkg install x11-repo
 pkg install openssh xfce4 firefox -y 
 read -p 'Digite o IP do Wireguard do lado do CLiente' IP_ADDR
 vncserver -from $IP_ADDR :1
