@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo 'Iniciando instalador...'
 sleep 3
 echo ''
