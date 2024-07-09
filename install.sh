@@ -5,7 +5,6 @@ echo ''
 echo 'termux-wake-lock' >> ~/.bashrc
 echo 'sshd' >> ~/.bashrc
 echo 'export DISPLAY=":1"' >> ~/.bashrc
-source ~/.bashrc
 pkg update
 pkg upgrade -y
 pkg install openssh xfce4 firefox -y 
