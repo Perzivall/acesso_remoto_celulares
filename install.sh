@@ -11,5 +11,4 @@ read -p 'Digite o IP do Wireguard do lado do CLiente' IP_ADDR
 vncserver -from $IP_ADDR :1
 echo 'xfce4-session' >> ~/.vnc/xstartup
 echo 'Change root password now...'
-passwd
 exit
